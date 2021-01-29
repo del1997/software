@@ -1,0 +1,261 @@
+{
+    "core": {
+        "locale": "",
+        "shortcuts": {
+            "CloseTab": "Ctrl+G, X",
+            "DistributeSplits": "Ctrl+G, =",
+            "ExpandContentArea": "Ctrl+\\",
+            "FullScreen": "F11",
+            "HorizontalSplit": "Ctrl+G, -",
+            "LocateNode": "Ctrl+G, D",
+            "MaximizeSplit": "Ctrl+G, Shift+\\",
+            "NavigationDock": "Ctrl+G, 1",
+            "NavigationMode": "Ctrl+G, W",
+            "NewNote": "Ctrl+Alt+N",
+            "NewWorkspace": "Ctrl+G, N",
+            "OutlineDock": "Ctrl+G, 2",
+            "RemoveSplitAndWorkspace": "Ctrl+G, R",
+            "Settings": "Ctrl+Alt+P",
+            "StayOnTop": "F10",
+            "VerticalSplit": "Ctrl+G, \\"
+        },
+        "theme": "pure",
+        "toolbar_icon_size": 16
+    },
+    "editor": {
+        "core": {
+            "auto_save_policy": "autosave",
+            "backup_file_directory": ".",
+            "backup_file_extension": "vswp",
+            "shortcuts": {
+                "Discard": "Ctrl+G, Q",
+                "EditRead": "Ctrl+T",
+                "FindAndReplace": "Ctrl+F",
+                "FindNext": "F3",
+                "FindPrevious": "Shift+F3",
+                "Outline": "Ctrl+G, O",
+                "RichPaste": "Ctrl+V",
+                "Save": "Ctrl+S",
+                "TypeBold": "Ctrl+B",
+                "TypeCheckedTodoList": "Ctrl+Shift+O",
+                "TypeCode": "Ctrl+E",
+                "TypeCodeBlock": "Ctrl+Shift+K",
+                "TypeHeading1": "Ctrl+1",
+                "TypeHeading2": "Ctrl+2",
+                "TypeHeading3": "Ctrl+3",
+                "TypeHeading4": "Ctrl+4",
+                "TypeHeading5": "Ctrl+5",
+                "TypeHeading6": "Ctrl+6",
+                "TypeHeadingNone": "Ctrl+7",
+                "TypeImage": "",
+                "TypeItalic": "Ctrl+I",
+                "TypeLink": "",
+                "TypeMark": "Ctrl+Shift+H",
+                "TypeMath": "Ctrl+,",
+                "TypeMathBlock": "Ctrl+.",
+                "TypeOrderedList": "Ctrl+9",
+                "TypeQuote": "",
+                "TypeStrikethrough": "Ctrl+Shift+S",
+                "TypeTable": "Ctrl+/",
+                "TypeTodoList": "Ctrl+Shift+5",
+                "TypeUnorderedList": "Ctrl+8"
+            },
+            "toolbar_icon_size": 14
+        },
+        "markdown_editor": {
+            "auto_break": true,
+            "confirm_before_clear_obsolete_images": true,
+            "constrain_image_width": true,
+            "constrain_inplace_preview_width": true,
+            "fetch_images_in_parse_and_paste": true,
+            "html_tag": true,
+            "indent_first_line": false,
+            "insert_file_name_as_title": true,
+            "linkify": true,
+            "prepend_dot_in_relative_link": false,
+            "protect_from_xss": false,
+            "section_number": "read",
+            "section_number_base_level": 2,
+            "section_number_style": "digdotdigdot",
+            "smart_table": true,
+            "smart_table_interval": 2000,
+            "viewer_resource": {
+                "resources": [
+                    {
+                        "enabled": true,
+                        "name": "global_styles",
+                        "scripts": [
+                        ],
+                        "styles": [
+                            "web/css/globalstyles.css"
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "built_in",
+                        "scripts": [
+                            "web/js/qwebchannel.js",
+                            "web/js/eventemitter.js",
+                            "web/js/utils.js",
+                            "web/js/nodelinemapper.js",
+                            "web/js/lrucache.js",
+                            "web/js/graphcache.js",
+                            "web/js/graphpreviewer.js",
+                            "web/js/vnotex.js",
+                            "web/js/vxworker.js",
+                            "web/js/graphrenderer.js",
+                            "web/js/svg-to-image.js",
+                            "web/js/computed-style-to-inline-style.js",
+                            "web/js/imageviewer.js",
+                            "web/js/easyaccess.js",
+                            "web/js/crosscopy.js"
+                        ],
+                        "styles": [
+                            "web/css/imageviewer.css"
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "markdown_viewer",
+                        "scripts": [
+                            "web/js/markdownviewer.js"
+                        ],
+                        "styles": [
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "markdown_it",
+                        "scripts": [
+                            "web/js/markdown-it/markdown-it.min.js",
+                            "web/js/markdown-it/markdown-it-container.min.js",
+                            "web/js/markdown-it/markdown-it-emoji.min.js",
+                            "web/js/markdown-it/markdown-it-footnote.min.js",
+                            "web/js/markdown-it/markdown-it-front-matter.js",
+                            "web/js/markdown-it/markdown-it-imsize.min.js",
+                            "web/js/markdown-it/markdown-it-sub.min.js",
+                            "web/js/markdown-it/markdown-it-sup.min.js",
+                            "web/js/markdown-it/markdown-it-task-lists.js",
+                            "web/js/markdown-it/markdown-it-texmath.js",
+                            "web/js/markdown-it/markdown-it-inject-linenumbers.js",
+                            "web/js/markdown-it/markdownItAnchor.umd.js",
+                            "web/js/markdown-it/markdownItTocDoneRight.umd.js",
+                            "web/js/markdownit.js"
+                        ],
+                        "styles": [
+                            "web/css/markdownit.css"
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "prism",
+                        "scripts": [
+                            "web/js/prism/clipboard.min.js",
+                            "web/js/prism.js"
+                        ],
+                        "styles": [
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "mermaid",
+                        "scripts": [
+                            "web/js/mermaid.js"
+                        ],
+                        "styles": [
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "flowchart.js",
+                        "scripts": [
+                            "web/js/flowchart.js/raphael.min.js",
+                            "web/js/flowchart.js/flowchart.min.js",
+                            "web/js/flowchartjs.js"
+                        ],
+                        "styles": [
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "wavedrom",
+                        "scripts": [
+                            "web/js/wavedrom.js"
+                        ],
+                        "styles": [
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "mathjax",
+                        "scripts": [
+                            "web/js/mathjax.js"
+                        ],
+                        "styles": [
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "plantuml",
+                        "scripts": [
+                            "web/js/plantuml.js"
+                        ],
+                        "styles": [
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "graphviz",
+                        "scripts": [
+                            "web/js/graphviz.js"
+                        ],
+                        "styles": [
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "turndown",
+                        "scripts": [
+                            "web/js/turndown/turndown.js",
+                            "web/js/turndown/turndown-plugin-gfm.js",
+                            "web/js/turndown.js"
+                        ],
+                        "styles": [
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "name": "mark.js",
+                        "scripts": [
+                            "web/js/mark.js/mark.min.js",
+                            "web/js/markjs.js"
+                        ],
+                        "styles": [
+                        ]
+                    }
+                ],
+                "template": "web/markdownviewertemplate.html"
+            },
+            "web_graphviz": true,
+            "web_plantuml": true,
+            "zoom_factor_in_read_mode": 1
+        },
+        "text_editor": {
+            "center_cursor": "never",
+            "expand_tab": true,
+            "input_mode": "normal",
+            "line_number": "absolute",
+            "tab_stop_width": 4,
+            "text_folding": true,
+            "wrap_mode": "word_anywhere",
+            "zoom_delta": 0
+        }
+    },
+    "metadata": {
+        "version": "3.0.0-beta.6"
+    },
+    "widget": {
+        "find_and_replace_options": 16,
+        "outline_auto_expanded_level": 5
+    }
+}
